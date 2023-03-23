@@ -1,0 +1,15 @@
+#logo {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#logo:hover {
+    animation-name: rotate;
+    animation-timing-function: ease;
+}
+
+@keyframes rotate {
+    50% {
+        transform: rotateY(360deg);
+    }
+}
